@@ -1,0 +1,87 @@
+  
+<section id="RAM">
+
+  <div id="ramevent" class="row">
+
+      <div class=" col-sm-10 headingfiler">
+          RAM TYPE
+      </div>
+      <div class="col-sm-2">
+          <button id="rambutton" (click)="doshowhideonfilterRAM(RAM)">
+              <i   [class]="myclassforitag" ></i>
+              <!-- <i  id="upitag" class="fas fa-angle-up"></i> -->
+              
+          </button>
+      </div>
+  </div>
+  <div [hidden]="flagforvaluesoffilterRAMclearall" id="clearallram">
+        <span id="crossclearall"> x</span>
+        <span id="textclearall">Clear all</span>
+      </div>
+  <div id="ramlist" [hidden]="flagforvaluesoffilterRAM" >
+      <div id="ramevent1"  class="row">
+
+          <div class="col-sm-2">
+              <input type="checkbox" id="inputRAM" value="on">
+
+          </div>
+          <div class=" col-sm-10 headingfiler">
+              <div id="rangeRAM">DDR2</div>
+          </div>
+      </div>
+      <div id="ramevent1" class="row">
+
+          <div class="col-sm-2">
+              <input type="checkbox" id="inputRAM" value="on">
+
+          </div>
+          <div class=" col-sm-10 headingfiler">
+              <div id="rangeRAM">DDR3L</div>
+          </div>
+      </div> 
+      <div id="ramevent1" class="row">
+
+          <div class="col-sm-2">
+              <input type="checkbox" id="inputRAM" value="on">
+
+          </div>
+          <div class=" col-sm-10 headingfiler">
+              <div id="rangeRAM">SDR</div>
+          </div>
+      </div>
+      
+      <div id="ramevent1"  class="row">
+
+        <div class="col-sm-2">
+            <input type="checkbox" id="inputRAM" value="on">
+
+        </div>
+        <div class=" col-sm-10 headingfiler">
+            <div id="rangeRAM">DDR3</div>
+        </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+        <div class="col-sm-2">
+            <input type="checkbox" id="inputRAM" value="on">
+
+        </div>
+        <div class=" col-sm-10 headingfiler">
+            <div id="rangeRAM">DDR4</div>
+        </div>
+    </div> 
+    <div id="ramevent1" class="row">
+
+        <div class="col-sm-2">
+            <input type="checkbox" id="inputRAM" value="on">
+
+        </div>
+        <div class=" col-sm-10 headingfiler">
+            <div id="rangeRAM">DDR</div>
+        </div>
+    </div>
+    
+   
+
+  </div>
+</section>

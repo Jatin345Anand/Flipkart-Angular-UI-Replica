@@ -1,0 +1,111 @@
+ 
+#ramevent {
+    padding: 11px;
+  }
+  
+  #ramevent1 {
+    padding-top: 1px;
+    padding-left: 11px;
+  }
+  
+  /* #ramlist{
+        display: none;
+    } */
+  
+  #ramname {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    /* display: inline-block; */
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px;
+    width: 95%;
+    left: 0%;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  #helpinputRAM {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 3px 0;
+  }
+  
+  #inputRAM {
+    color: initial;
+    letter-spacing: normal;
+    cursor: pointer;
+  }
+  
+  #upitag {
+    padding: 1px;
+  }
+  
+  #rangeRAM {
+    text-align: left;
+    font-size: 14px;
+    padding-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+  }
+  
+  #rambutton {
+    background-color: transparent;
+    border: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* background-color: transparent; */
+  }
+  
+  .headingfiler {
+    text-align: left;
+  }
+  
+  #brandbutton {
+    background-color: transparent;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color: transparent; */
+  }
+  
+#clearallram{ 
+  vertical-align: bottom;
+  cursor: pointer;
+  padding: 1px 0;
+  text-align: left;
+  /* margin-left:-2px;  */
+}
+#crossclearall{
+  display: inline-block;
+  height: 20px;
+  width: 14px;
+  padding: 0px 0;
+  text-align: center;
+  /* color: #878787; */
+  vertical-align: middle;
+  line-height: 1.4;
+  cursor: pointer;
+  margin-left: 11px;
+  background-color: springgreen;
+}
+#textclearall{
+  display: inline-block;
+  font-size: 15 px;
+  color: #878787;
+  margin-left: 11px;
+  
+}

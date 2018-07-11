@@ -1,0 +1,317 @@
+<section id="RAM">
+
+  <div id="ramevent" class="row">
+
+    <div class=" col-sm-10 headingfiler">
+      PROCESSOR
+    </div>
+    <div class="col-sm-2">
+      <button id="rambutton" (click)="doshowhideonfilterRAM(RAM)">
+        <i [class]="myclassforitag"></i>
+        <!-- <i  id="upitag" class="fas fa-angle-up"></i> -->
+
+      </button>
+    </div>
+  </div>
+  <div [hidden]="flagforvaluesoffilterRAMclearall" id="clearallram">
+    <span id="crossclearall"> x</span>
+    <span id="textclearall">Clear all</span>
+  </div>
+  <div id="ramlist" [hidden]="flagforvaluesoffilterRAM">
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core i3 </div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core i5</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core i7</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Pentium Quad Core</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Ryzen 5 Quad Core</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A9 </div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Atom Quad Core</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core M</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A4 </div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Ryzen 3 Dual Core</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core E1</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core E2</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A10 </div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A12</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A6</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core A8</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Dual Core E2</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Atom</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Celeron Dual Core</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core m3</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Core m5</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Pentium Dual Core</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Pentium Dual Core</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">Ryzen 7 Octa Core</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Quad Core A4</div>
+      </div>
+    </div>
+
+    <div id="ramevent1" class="row">
+
+      <div class="col-sm-2">
+        <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+        <div id="rangeRAM">APU Quad Core FX</div>
+      </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+        <div class="col-sm-2">
+          <input type="checkbox" id="inputRAM" value="on">
+  
+        </div>
+        <div class=" col-sm-10 headingfiler">
+          <div id="rangeRAM">Celeron Quad Core</div>
+        </div>
+      </div>
+      <div id="ramevent1" class="row">
+
+        <div class="col-sm-2">
+          <input type="checkbox" id="inputRAM" value="on">
+  
+        </div>
+        <div class=" col-sm-10 headingfiler">
+          <div id="rangeRAM">Others</div>
+        </div>
+      </div>
+    
+
+  </div>
+</section>

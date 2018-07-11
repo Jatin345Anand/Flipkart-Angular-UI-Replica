@@ -1,0 +1,77 @@
+      
+<section id="RAM">
+
+  <div id="ramevent" class="row">
+
+      <div class=" col-sm-10 headingfiler">
+          WEIGHT
+      </div>
+      <div class="col-sm-2">
+          <button id="rambutton" (click)="doshowhideonfilterRAM(RAM)">
+              <i   [class]="myclassforitag" ></i>
+              <!-- <i  id="upitag" class="fas fa-angle-up"></i> -->
+              
+          </button>
+      </div>
+  </div>
+  <div [hidden]="flagforvaluesoffilterRAMclearall" id="clearallram">
+        <span id="crossclearall"> x</span>
+        <span id="textclearall">Clear all</span>
+      </div>
+  <div id="ramlist" [hidden]="flagforvaluesoffilterRAM" >
+      <div id="ramevent1"  class="row">
+
+          <div class="col-sm-2">
+              <input type="checkbox" id="inputRAM" value="on">
+
+          </div>
+          <div class=" col-sm-10 headingfiler">
+              <div id="rangeRAM">1.2 KG to 1.8 KG</div>
+          </div>
+      </div>
+      <div id="ramevent1" class="row">
+
+          <div class="col-sm-2">
+              <input type="checkbox" id="inputRAM" value="on">
+
+          </div>
+          <div class=" col-sm-10 headingfiler">
+              <div id="rangeRAM">Above 3 KG</div>
+          </div>
+      </div>  
+      <div id="ramevent1"  class="row">
+
+        <div class="col-sm-2">
+            <input type="checkbox" id="inputRAM" value="on">
+
+        </div>
+        <div class=" col-sm-10 headingfiler">
+            <div id="rangeRAM">2.5 KG to 3.0 KG</div>
+        </div>
+    </div>
+    <div id="ramevent1" class="row">
+
+        <div class="col-sm-2">
+            <input type="checkbox" id="inputRAM" value="on">
+
+        </div>
+        <div class=" col-sm-10 headingfiler">
+            <div id="rangeRAM">2.2 KG to 2.5 KG</div>
+        </div>
+    </div>  
+    <div id="ramevent1"  class="row">
+
+      <div class="col-sm-2">
+          <input type="checkbox" id="inputRAM" value="on">
+
+      </div>
+      <div class=" col-sm-10 headingfiler">
+          <div id="rangeRAM">1.8 KG to 2.2 KG</div>
+      </div>
+  </div>
+   
+  
+     
+
+  </div>
+</section>

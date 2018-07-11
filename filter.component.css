@@ -1,0 +1,148 @@
+.FilterAndData {
+  /* background-color: yellow; */
+}
+
+.row {
+  display: flex;
+}
+#listdataGrandcontainer{
+  background-color: #fff;
+  margin: 4px;
+  border-radius: 10px;
+
+}
+#filtercontainer,#listdatacontainer {
+  border-radius: 5px;
+  left: 0%;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  background-color: #fff;
+  color: #212121;
+  line-height: 1.4;
+
+}
+#listdatacontainer{
+  /* border: 1px solid black; */
+  height: 300px;
+  
+}
+#filtername {
+  font-size: 18px;
+  text-transform: capitalize;
+  width: 67%;
+  padding: 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#clearallfilter {
+  cursor: pointer;
+  color: #2874f0;
+  font-size: 12px;
+  padding: 19px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#SLmin {
+  display: inline-block;
+  padding-bottom: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, .5);
+  border-radius: 3px;
+  margin: 2px 4px;
+  overflow: hidden;
+  transition: background-color 0.1s;
+  max-width: 200px;
+  padding: 8px;
+}
+
+.Catagories {
+  padding: 16px;
+}
+
+#Category {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 5px;
+}
+
+#mobiles-accessories {
+  padding: 5px 0;
+  color: #212121;
+  white-space: nowrap;
+}
+
+#mobiles-accessories a {
+  color: #878787;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+  color: rgb(0, 75, 145);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#mobiles a {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+  color: rgb(0, 75, 145);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#datacontainer {
+  background-color: #fff;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+.filterGrandContainer {
+  background-color: #fff;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+section {
+  border-bottom: 0.6px solid black;
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
