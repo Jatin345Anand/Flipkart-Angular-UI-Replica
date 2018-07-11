@@ -1,0 +1,72 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  /* border: 1px ss black; */
+}
+
+.row {
+  display: flex;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first {
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-right: 1px solid #e4e4e4;
+}
+
+.second {
+  padding: 10px 0;
+}
+
+.third {
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-left: 1px solid #e4e4e4;
+}
+
+.tag1 {
+  display: inline-block;
+  height: 47px;
+  width: 37px;
+  vertical-align: middle;
+  padding-right: 5px;
+  /* background: url('https://img1a.flixcart.com/www/prod/images/ssa-sprite-47eaada8.png') no-repeat scroll 0 -91px; */
+}
+
+.tag2 {
+  height: 47px;
+  width: 37px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  /* background: url('https://img1a.flixcart.com/www/prod/images/ssa-sprite-47eaada8.png') no-repeat scroll 0 -91px; */
+  background-position-x: 0px;
+  background-position-y: -91px;
+}
+
+.tag3 {
+  height: 47px;
+  width: 37px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  /* background: url('https://img1a.flixcart.com/www/prod/images/ssa-sprite-47eaada8.png') no-repeat scroll 0 -91px; */
+  background-position-x: 0px;
+  background-position-y: -91px;
+}
+
+.text1 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px;
+}

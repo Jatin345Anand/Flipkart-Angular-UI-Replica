@@ -1,0 +1,61 @@
+ #footer{
+     border: 6px solid black;
+     background-color: black;
+ }
+ .row{
+     display: flex;
+     flex-flow: row wrap;
+     /* margin-left: 65px; */
+    /* width: 90% !important; */
+    padding-top: 40px;
+  /* border: 1px solid gainsboro; */
+  font-size: 14px;
+    /* background-color: #f1f3f6; */
+    color: white;
+    line-height: 1.4;
+  text-align: left;
+  font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0;
+ }
+ p{
+    margin: 0 auto;
+    padding: 0px;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;   
+ }
+ #LINE {
+     border-right: 1px solid #878787;
+ }
+  
+ span{
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ }
+ h5{
+    color: #878787;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 9px;
+     letter-spacing: 0;
+     margin: 0 auto;
+     padding: 0px 0px 10px 0px;
+ }
