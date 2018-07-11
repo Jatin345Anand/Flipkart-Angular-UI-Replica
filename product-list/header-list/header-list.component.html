@@ -1,0 +1,30 @@
+ <div id="grand-header-list">
+    <div id="header-list">
+     <div id="firstline">
+       <div class="firstline1">
+         <a class="firstline1a" href="#">Home</a>
+         <i   class="fas fa-angle-right" ></i>
+       </div>
+       <div class="firstline1">
+          <a class="firstlineTypeofProduct" id="" [innerHTML]="TypeofProduct" href="#">Mobiles && Accessories</a>
+          <i   class="fas fa-angle-right" ></i>
+        </div>
+        <div class="firstline1">
+            <a class="firstline1a" href="#">Mobiles</a> 
+          </div>
+     </div>
+     <div id="secondline">
+        Showing 25 – 48 of 152 results for " 
+        <span [innerHTML]="brand"></span> "
+     </div>
+     <div id="thirdline">
+       <span id="sortby">Sort By</span>
+       <div [class]="Isclassforborder1" (click)="dochangeborder1($event)">Relevance</div>
+       <div [class]="Isclassforborder2" (click)="dochangeborder2($event)">Popularity</div>
+       <div [class]="Isclassforborder3" (click)="dochangeborder3($event)">Price -- Low to High</div>
+       <div [class]="Isclassforborder4" (click)="dochangeborder4($event)">Price -- High to Low</div>
+       <div [class]="Isclassforborder5" (click)="dochangeborder5($event)">Newest First</div>
+
+      </div>
+    </div>
+ </div> 
